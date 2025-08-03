@@ -1,0 +1,13 @@
+name: ai-prompt-toolkit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - poetry
+  - nodejs
+  - redis
+  - postgresql
+  - pip:
+    - poetry
